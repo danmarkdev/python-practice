@@ -13,13 +13,13 @@ print("Sum:", sum(numbers))
 print("Average:", sum(numbers) / len(numbers))
 print("Max:", max(numbers), "Min:", min(numbers))
 
-# List comprehension
+#List comprehension
 squares = [n ** 2 for n in range(1, 11)]
 evens = [n for n in range(1, 21) if n % 2 == 0]
 print(squares)
 print(evens)
 
-# Remove duplicates while keeping order
+#duplicates keeping order
 data = [1, 2, 2, 3, 4, 4, 5, 1]
 unique = []
 for d in data:
@@ -27,6 +27,6 @@ for d in data:
         unique.append(d)
 print("Unique:", unique)
 
-# PRACTICE: second largest number
+#Second Largest Number
 nums = [10, 40, 20, 30, 50]
 print("Second largest:", sorted(set(nums))[-2])
