@@ -8,21 +8,21 @@ print("Length:", len(text))
 print("Words:", len(text.split()))
 print("Reversed:", text[::-1])
 
-# Palindrome check
+#Palindrome check
 word = input("Enter a word: ").lower()
 print("Palindrome!" if word == word[::-1] else "Not a palindrome")
 
-# Count vowels
+#Count vowels
 vowels = sum(1 for ch in text.lower() if ch in "aeiou")
 print("Vowels:", vowels)
 
-# Character frequency
+#Character frequency
 freq = {}
 for ch in text.replace(" ", "").lower():
     freq[ch] = freq.get(ch, 0) + 1
 print(freq)
 
-# Caesar cipher
+#Caesar cipher
 def caesar(msg, shift):
     out = ""
     for ch in msg:
