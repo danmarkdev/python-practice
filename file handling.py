@@ -10,13 +10,13 @@ with open("notes.txt", "r") as f:
     for number, line in enumerate(f, start=1):
         print(number, line.strip())
 
-# Count lines and words
+#Count lines & words
 with open("notes.txt") as f:
     content = f.read()
 print("Lines:", len(content.splitlines()))
 print("Words:", len(content.split()))
 
-# Save and load a list
+#Save & load a list
 import json
 data = {"students": ["Ana", "Ben", "Cara"], "passed": 3}
 with open("data.json", "w") as f:
