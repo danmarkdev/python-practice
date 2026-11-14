@@ -1,17 +1,17 @@
 "for and while loops"
 
-# Multiplication table
+#Multiplication table Python
 num = int(input("Table of: "))
 for i in range(1, 11):
     print(f"{num} x {i} = {num * i}")
 
-# Sum 1..100
+#Sum 1..100
 total = 0
 for i in range(1, 101):
     total += i
 print("Sum 1-100:", total)
 
-# FizzBuzz
+#FizzBuzz
 for i in range(1, 31):
     if i % 15 == 0:
         print("FizzBuzz")
@@ -22,11 +22,11 @@ for i in range(1, 31):
     else:
         print(i)
 
-# Triangle pattern
+#Triangle pattern
 for i in range(1, 6):
     print("*" * i)
 
-# While loop: countdown
+# While loop & countdown
 count = 5
 while count > 0:
     print(count)
