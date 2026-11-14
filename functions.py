@@ -30,7 +30,7 @@ print("5! =", factorial(5))
 print(fibonacci(10))
 print(stats(3, 7, 1, 9))
 
-# PRACTICE: write gcd(a, b)
+#Practicing of writing gcd(a, b)
 def gcd(a, b):
     while b:
         a, b = b, a % b
